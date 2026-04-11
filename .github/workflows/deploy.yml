@@ -46,5 +46,6 @@ jobs:
           --cluster genai-s3-cluster \
           --launch-type FARGATE \
           --task-definition genai-s3-task \
-          --network-configuration "awsvpcConfiguration={subnets=[subnet-0abc1234],assignPublicIp=ENABLED}"
+          --network-configuration "awsvpcConfiguration={subnets=[subnet-062aab4b1f6dad78b],assignPublicIp=ENABLED}"
 
+ubuntu@ip-172-31-33-117:~/genai-s3-app/.github/workflows$ 
